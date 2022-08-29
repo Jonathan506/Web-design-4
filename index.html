@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ing. Blandón">
+    <meta name="description" content="Wirefrime_II">
+    <title>Wirefrime_II</title>
+    <link rel="icon" href="/assets/img/favicon.png">
+    <link rel="stylesheet" href="/assets/css/normalize.css" media="">
+    <link rel="stylesheet" href="/assets/css/styles.css" media="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="/assets/js/prefixfree.min.js"></script>
+    <script src="/assets/js/scrollomatic.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("a.scroll").scrollomatic(); 
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <a href="#home" class="scroll">
+            <div id="logo"></div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#home" class="scroll">Home</a></li>
+                <li><a href="#topics" class="scroll">Topics</a></li>
+                <li><a href="#gallery" class="scroll">Gallery</a></li>
+                <li><a href="#contact" class="scroll">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="content">
+        <video src="/assets/video/video.mp4" autoplay muted loop preload="auto">
+            <!-- <source src="/assets/video/video.mp4" type="/assets/video/video.mp4">
+            <source src="/assets/video/video.ogv" type="/assets/video/video.ovg">
+            <source src="/assets/video/video.webm" type="/assets/video/video.webm">
+            <p>This browser does not support the video format</p> -->
+        </video>
+        <section id="home">
+            <div id="globo"></div>
+            <h2>Wirefrime II</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis illo ut dolore nesciunt velit quia?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse illo molestiae vitae!</p>
+            <a href="#topics " class="scroll">See more</a>
+            <div id="abajo"></div>
+        </section>
+        <section id="topics">
+            <h3>Topics</h3>
+            <article>
+                <div id="imagen1"></div>
+                <h4>Caption Level 4</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis reprehenderit quis error ab suscipit ad?</p>
+                <a href="#home" class="scroll">Read more</a>
+                <div id="imagen2"></div>
+                <h4>Caption Level 4</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat architecto mollitia assumenda. Culpa, obcaecati iure?</p>
+                <a href="#home" class="scroll">Read more</a>
+                <div id="imagen3"></div>
+                <h4>Caption Level 4</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sed molestiae asperiores alias eveniet enim!</p>
+                <a href="#home" class="scroll">Read more</a>
+            </article>
+        </section>
+        <section id="gallery">
+            <h3>Gallery</h3>
+            <div id="photos">
+                <a href="#" title="Image1"><img src="/assets/img/1.jpg" alt="Image1"></a>
+                <a href="#" title="Image2"><img src="/assets/img/2.jpg" alt="Image2"></a>
+                <a href="#" title="Image3"><img src="/assets/img/3.jpg" alt="Image3"></a>
+                <a href="#" title="Image4"><img src="/assets/img/4.jpg" alt="Image4"></a>
+                <a href="#" title="Image5"><img src="/assets/img/5.jpg" alt="Image5"></a>
+                <a href="#" title="Image6"><img src="/assets/img/6.jpg" alt="Image6"></a>
+                <a href="#" title="Image7"><img src="/assets/img/7.jpg" alt="Image7"></a>
+                <a href="#" title="Image8"><img src="/assets/img/8.jpg" alt="Image8"></a>
+                <a href="#" title="Image9"><img src="/assets/img/9.jpg" alt="Image9"></a>
+            </div>
+        </section>
+        <section id="contact">
+            <h3>Contact</h3>
+            <div id="form">
+                <form action="post">
+                    <input type="text" name="name" required placeholder="Name">
+                    <input type="email" name="email" required placeholder="Email">
+                    <input type="tel" name="telephone" required placeholder="Telephone" pattern="[0-9]{4}\s[0-9]{4}$">
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" name="send" value="Send" required>
+                </form>
+            </div>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31440.81941064076!2d-84.11873279999999!3d9.9254272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scr!4v1654038709490!5m2!1ses!2scr" width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <a href="#content" class="up scroll"></a>
+        </section>
+        <footer>
+            <p><small>copyright &copy; 2022 Jonathan Blandón - Todos los derechos reservados</small></p>
+        </footer>
+    </main>
+</body>
+</html>
