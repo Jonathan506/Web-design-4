@@ -185,6 +185,7 @@ article div{
     width: 12rem;
     height: 12rem;
 }
+
 h3{
     color: rgba(0, 0, 0, .5);
     font-family: 'Open Sans Condensed', sans-serif;
@@ -252,6 +253,7 @@ article a:hover{
     border: 0.09375rem solid rgba(204, 204, 204, 1);
     margin: 0.65em;
     padding: 0.65em;
+    resize: none;
 }
 
 #contact input[type="submit"]{
