@@ -10,7 +10,9 @@
     <link rel="icon" href="/assets/img/favicon.png">
     <link rel="stylesheet" href="/assets/css/normalize.css" media="">
     <link rel="stylesheet" href="/assets/css/styles.css" media="">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
@@ -24,30 +26,32 @@
 </head>
 <body>
     <header>
-        <a href="#home" class="scroll">
-            <div id="logo"></div>
-        </a>
-        <nav>
-            <ul>
-                <li><a href="#home" class="scroll">Home</a></li>
-                <li><a href="#topics" class="scroll">Topics</a></li>
-                <li><a href="#gallery" class="scroll">Gallery</a></li>
-                <li><a href="#contact" class="scroll">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="div-header">
+            <a href="index.html" class="name-logo">
+                <p class="div-header-text">Jonathan Blandón</p> 
+            </a> 
+            <nav>
+                <ul class="header-list">
+                    <li class="list-item"><a href="#home" class="scroll header-link link">Home</a></li>
+                    <li class="list-item"><a href="#topics" class="scroll header-link link">Topics</a></li>
+                    <li class="list-item"><a href="#gallery" class="scroll header-link link">Gallery</a></li>
+                    <li class="list-item"><a href="#contact" class="scroll header-link link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main id="content">
-        <video src="/assets/video/video.mp4" autoplay muted loop preload="auto">
+        <video class="media" src="/assets/video/video.mp4" autoplay muted loop preload="auto">
             <!-- <source src="/assets/video/video.mp4" type="/assets/video/video.mp4">
             <source src="/assets/video/video.ogv" type="/assets/video/video.ovg">
             <source src="/assets/video/video.webm" type="/assets/video/video.webm">
             <p>This browser does not support the video format</p> -->
         </video>
         <section id="home">
-            <div id="globo"></div>
-            <h2>Wirefrime II</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis illo ut dolore nesciunt velit quia?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse illo molestiae vitae!</p>
-            <a href="#topics " class="scroll">See more</a>
+            <div class="globo"></div>
+            <h2 class="title">Wirefrime II</h2>
+            <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis illo ut dolore nesciunt velit quia?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse illo molestiae vitae!</p>
+            <a href="#topics " class="scroll link link-home">See more</a>
             <div id="abajo"></div>
         </section>
         <section id="topics">
